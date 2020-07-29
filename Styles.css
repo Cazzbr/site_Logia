@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+/*
+html {
+  scroll-behavior: smooth;
+}
+*/
+body {
+    background-color: #3b9a9c;
+
+}
+
+header {
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+}
+
+.logo{
+    max-width:100%;
+    max-height:100%;
+    vertical-align: middle;
+}
+
+nav {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    max-width: 800px;
+    margin: 0px auto;
+}
+
+/* Editar o Menu */
+ul {
+    background: #3b9a9c;
+    display: flex;
+    list-style: none;
+    width: 100%;
+    font-size: 18px;
+    height: 10vh;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+li {
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+
+
+    border: 2px solid #78fee0;
+    text-align: center;
+}
+a {
+    display: block;
+    text-decoration: none;
+    color: #78fee0;
+}
+
+a:hover{
+  color: #3b9a9c;
+  background-color: #78fee0;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+section {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 200;
+    line-height: 2;
+    color: #fef4a9;;
+    padding-top: 12vh;      /* resolve o problema do section iniciar no topo da página, embaixo do menu.  */
+    }
+
