@@ -18,7 +18,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    color:white;
+    color: #fef4a9;
 }
 
 .logo{
@@ -79,7 +79,7 @@ section {
     font-family: sans-serif;
     font-weight: 200;
     line-height: 2;
-    color: #fef4a9;;
+    color: #fef4a9;
     padding-top: 12vh;      /* resolve o problema do section iniciar no topo da página, embaixo do menu.  */
     }
 
