@@ -14,10 +14,13 @@ body {
 }
 
 header {
-    height: 20vh;
+    width: 90%;
+    max-width: 800px;
+    margin: 0px auto;
+    height: 170px;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: center;  
+  /*  justify-content: center;  */
     color: #fef4a9;
 }
 
@@ -48,11 +51,9 @@ ul {
 }
 
 li {
-    width: 120px;
+    width: 25vh;
     height: 40px;
     line-height: 40px;
-
-
     border: 2px solid #78fee0;
     text-align: center;
 }
@@ -62,11 +63,13 @@ a {
     color: #78fee0;
 }
 
-a:hover{
-  color: #3b9a9c;
-  background-color: #78fee0;
+@media(hover: hover) and
+(pointer: fine) {
+    a:hover{
+        color: #3b9a9c;
+        background-color: #78fee0;
+    }
 }
-
 .container {
     width: 90%;
     max-width: 800px;
