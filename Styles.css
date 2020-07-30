@@ -3,11 +3,11 @@
     padding: 0;
     font-family: sans-serif;
 }
-/*
+
 html {
   scroll-behavior: smooth;
 }
-*/
+
 body {
     background-color: #3b9a9c;
 
@@ -74,11 +74,18 @@ a {
         background-color: #78fee0;
     }
 }
+
+.active {
+    color: #3b9a9c;
+    background-color: #78fee0;
+}
+
 .container {
     width: 90%;
     max-width: 800px;
     margin: 0px auto;
-    text-align: center;
+    text-align: justify;
+    text-indent: 10%;
 }
 
 section {
@@ -86,10 +93,15 @@ section {
     font-family: sans-serif;
     font-weight: 200;
     line-height: 2;
-    color: #fef4a9;
+    color: #78fee0;
     padding-top: 60px;      /* resolve o problema do section iniciar no topo da página, embaixo do menu.  */
     }
 
+H1 {
+    color: #fef4a9;
+    font-size: 30px;
+    text-align: center;
+}
 .img_sections {
     width: 100%;
     margin: 0px auto;
