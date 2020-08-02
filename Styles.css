@@ -54,7 +54,7 @@ header {
 nav {
     position: -webkit-sticky; /* Safari */
     position: sticky;
-    top: 0;
+    top: 0px;
     max-width: 800px;
     margin: 0px auto;
 }
@@ -121,6 +121,7 @@ H1 {
     font-size: 25px;
     text-align: center;
     font-family: bryndan_write;
+    padding-bottom: 20px;
 }
 .img_sections {
     width: 100%;
@@ -137,7 +138,7 @@ H2 {
     color: #fef4a9;
     font-size: 20px;
     font-family: bryndan_write;
-    padding-top: 40px;
+    padding-top: 30px;
 }
 p {
     text-indent: 10%;
@@ -145,7 +146,7 @@ p {
 }
 
 section ul li{
-    text-indent: 15%;
+    text-indent: 10%;
     line-height: 1.2;
     list-style: none;
 }
