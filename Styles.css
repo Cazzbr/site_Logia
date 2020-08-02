@@ -77,10 +77,18 @@ nav li {
     border: 2px solid #78fee0;
     text-align: center;
 }
+
+
 a {
     display: block;
     text-decoration: none;
     color: #78fee0;
+}
+
+@media (max-width: 400px) {
+    ul li a {
+    font-size: 4vw;
+    }
 }
 
 @media(hover: hover) and
@@ -101,20 +109,16 @@ a {
     max-width: 800px;
     margin: 0px auto;
     text-align: justify;
-    text-indent: 10%;
 }
 
 section {
-    font-size: 20px;
-    font-weight: 200;
-    line-height: 1.8;
     color: #78fee0;
     padding-top: 60px;      /* resolve o problema do section iniciar no topo da página, embaixo do menu.  */
     }
 
 H1 {
     color: #fef4a9;
-    font-size: 40px;
+    font-size: 25px;
     text-align: center;
     font-family: bryndan_write;
 }
@@ -131,10 +135,15 @@ H1 {
 
 H2 {
     color: #fef4a9;
-    font-size: 30px;
+    font-size: 20px;
     font-family: bryndan_write;
     padding-top: 40px;
 }
+p {
+    text-indent: 10%;
+    font-size: 15px;
+}
+
 section ul li{
     text-indent: 15%;
     line-height: 1.2;
