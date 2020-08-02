@@ -1,15 +1,32 @@
+@font-face {
+    font-family: 'sacramento';
+    font-style: normal;
+    src: local('Sacramento'), local('Sacramento-Regular'), url(http://themes.googleusercontent.com/static/fonts/sacramento/v1/WFDkXpubrEwopJnSlHV6CC3USBnSvpkopQaUR-2r7iU.ttf);
+}
+@font-face {
+    font-family: 'bryndan_write';
+    font-style: normal;
+    src: url(Media/Bryndan_Write.ttf);
+}
+
+@font-face {
+    font-family: 'aileron_heavy';
+    font-style: normal;
+    src: url(Media/Aileron_Heavy.otf);
+}
+
 * {
-    margin: 0;
+    margin: 0;  
     padding: 0;
-    font-family: sans-serif;
 }
 
 html {
   scroll-behavior: smooth;
-}
+} 
 
 body {
     background-color: #3b9a9c;
+    font-family: aileron_heavy;
 
 }
 
@@ -43,7 +60,7 @@ nav {
 }
 
 /* Editar o Menu */
-ul {
+nav ul {
     background: #3b9a9c;
     display: flex;
     list-style: none;
@@ -54,7 +71,7 @@ ul {
     justify-content: space-evenly;
 }
 
-li {
+nav li {
     width: 23%;
     height: 40px;
     line-height: 40px;
@@ -90,17 +107,17 @@ a {
 
 section {
     font-size: 20px;
-    font-family: sans-serif;
     font-weight: 200;
-    line-height: 2;
+    line-height: 1.8;
     color: #78fee0;
     padding-top: 60px;      /* resolve o problema do section iniciar no topo da página, embaixo do menu.  */
     }
 
 H1 {
     color: #fef4a9;
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
+    font-family: bryndan_write;
 }
 .img_sections {
     width: 100%;
@@ -109,4 +126,22 @@ H1 {
     align-items: center;  
   /*justify-content: center;  */
 }
+.espacamento {
+    height: 200px;
+}
 
+H2 {
+    color: #fef4a9;
+    font-size: 30px;
+    font-family: bryndan_write;
+    padding-top: 40px;
+}
+section ul li{
+    text-indent: 15%;
+    line-height: 1.2;
+    list-style: none;
+}
+
+.insta {
+    align: center;
+}
