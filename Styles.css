@@ -40,11 +40,19 @@ header {
     justify-content: space-between;
     color: #fef4a9;
 }
+.logo_container {
+    height: 170px;
+    
+}
+
+a:hover.logo_container {
+    background-color: #3b9a9c;
+}
 
 .logo{
     max-width:100%;
     max-height:100%;
-    vertical-align: middle;
+
 }
 .login {
     height: 70%;
@@ -97,6 +105,11 @@ a {
         color: #3b9a9c;
         background-color: #78fee0;
     }
+    /* Add a hover effect for buttons */
+    button:hover {
+    color: #3b9a9c;
+    background-color: #78fee0;
+}
 }
 
 .active {
@@ -130,9 +143,6 @@ H1 {
     align-items: center;  
   /*justify-content: center;  */
 }
-.espacamento {
-    height: 50vh;
-}
 
 H2 {
     color: #fef4a9;
@@ -150,3 +160,68 @@ section ul li{
     line-height: 1.2;
     list-style: none;
 }
+
+footer {
+    Margin-top: 40px;
+    height: 50vh;
+    align-items: center;
+}
+
+#linha_div {
+    background-color: #4bc2c5;
+    height: 25px;
+}
+.voltaraotopo_container {
+    text-align: center;
+    width: 200px;
+    height: 60px;
+    margin: 0px auto;
+    padding:50px;
+   
+}    
+
+.voltaraotopo {
+    border: 2px solid #78fee0;
+    line-height: 40px;
+    color: #fef4a9;
+}
+
+/*-------   login form -------  */
+form {
+text-align: center;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px  20px;
+    margin: 8px 0px 8px 0px;
+    display: block;
+    border: 2px solid #4bc2c5;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    display:block;
+    background-color: #3b9a9c;
+    color: #78fee0;
+    padding: 14px 20px;
+    margin: 8px 0px;
+    border: 2px solid #78fee0;
+    cursor: pointer;
+    width: 100%;
+    font-family: aileron_heavy;
+}
+
+
+/* Add padding to containers */
+.container_log {
+    width: 100%;
+    max-width: 500px;
+    display: inline-block;
+    color: #fef4a9;
+    text-align: left;
+    font-family: aileron_heavy;
+}
+

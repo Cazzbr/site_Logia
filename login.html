@@ -6,9 +6,63 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Logia - Espaço da aprendizagem </title>
         <link rel="stylesheet" type="text/css" href="Styles.css">
-        <!-- <script type="text/javascript" src="Scripts.js"></script> -->
+        <script type="text/javascript" src="Scripts.js"></script>
     </head>
     <body>
-        <p class= 'container'>Login - área restrita</p>
+         <header id='topo'>
+            <a class="logo_container" href="index.html">
+            <img class="logo" src="Media/Logo_Logia_resized.png">
+            </a>
+        </header>
+        <nav>
+            <ul>
+                <li><a  id="home_menu" href="index.html#home">Logia</a></li>
+                <li><a id="sobre_menu" href="index.html#sobre">Sobre mim</a></li>
+                <li><a id="post_menu" href="#index.html#post">Conteúdos</a></li>
+                <li><a id="contato_menu" href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        <article id="containerID" class="container">
+            </section id='loguin'>
+                <br>
+                <H1>Área restrita!</H1>
+                <form action="" method="post">
+                    <div class="container_log">
+                        <label for="uname"><b>Usuário:</b></label>
+                        <input type="text" placeholder="Enter Username" name="uname" required>
+
+                        <label for="psw"><b>Senha:</b></label>
+                        <input type="password" placeholder="Enter Password" name="psw" required>
+        
+                        <button type="submit">Loguin</button>
+                    </div>
+                </form>
+            </section>
+            <section id="contato">
+                <H1>Contato </H1>
+                <H2>Atendimentos presenciais:</H2>
+                <ul>
+                    <li>Clínica EstarBene</li>
+                    <li>Endereço: Rua Tiradentes, 45A - Sala 502</li>
+                    <li>Bairro: Centro</li>
+                    <li>Cidade: Farroupilha - RS</li>
+                </ul>
+                <H2>Atendimentos online ou domiciliares (Home care):</H2>
+                <ul>
+                    <li>Instagram: @sintiaschio</li>
+                    <li>Email: sintia.schio@gmail.com</li>
+                </ul>
+                <H2>Telefone (whatsapp):</H2>
+                <ul>
+                    <li>(054) 9 9176-0425</li>
+                </ul>
+             </section>
+        </article>
+        <footer>
+            <div id="linha_div"></div>
+            <div class='voltaraotopo_container'>
+                <a class='voltaraotopo' href="#topo">Voltar ao topo</a> 
+            </div>
+        </footer> 
     </body>
 </html>
