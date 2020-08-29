@@ -97,6 +97,9 @@ a {
     ul li a {
     font-size: 4vw;
     }
+    #static_footer .s_footer_info {
+    font-size: 4vw;
+    }
 }
 
 @media(hover: hover) and
@@ -167,10 +170,24 @@ footer {
     align-items: center;
 }
 
-#linha_div {
-    background-color: #4bc2c5;
-    height: 10px;
+#static_footer {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    bottom: 0px;
+    background-color: #fef4a9;
+    height: 30px;
+    max-width: 800px;
+    margin: 0px auto;
+    line-height: 30px;
+    text-align: center;
 }
+
+#static_footer h1 {
+    font-size: 17px;
+    font-family: aileron_heavy;
+    color: #3b9a9c;
+}
+
 .voltaraotopo_container {
     text-align: center;
     width: 200px;
