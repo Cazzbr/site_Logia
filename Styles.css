@@ -112,7 +112,33 @@ a {
     button:hover {
     color: #3b9a9c;
     background-color: #78fee0;
+    }
 }
+
+.links_buttoms{
+    display: grid;
+    max-width:600px;
+    margin: 0px auto;
+    align-items: center;
+}
+
+.links_buttoms ul {
+    background: #3b9a9c;
+    display: flex;
+    list-style: none;
+    width: 100%;
+    height: 60px;
+    justify-content: center;
+}
+
+.links_buttoms li{
+    display: list-item;
+    width: 90%;
+    height: 40px;
+    line-height: 40px;
+    border: 2px solid #78fee0;
+    text-align: center;
+    text-indent: 0%;
 }
 
 .active {
@@ -139,6 +165,28 @@ H1 {
     font-family: bryndan_write;
     padding-bottom: 20px;
 }
+
+.profile_image_class {
+    display: flex;
+    max-width: 600px;
+    margin: 0px auto;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #78fee0;
+}
+
+.profile_image_class p {
+    text-indent: 0%;
+}
+
+.profile_image {
+    border-radius: 50%;
+    width: 96px;
+    height: 96px;
+    display: flex;
+}
+
+
 .img_sections {
     width: 100%;
     margin: 0px auto;

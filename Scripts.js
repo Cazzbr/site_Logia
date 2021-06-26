@@ -4,7 +4,7 @@ function activate() {
         sobre_pos = document.getElementById('sobre').getBoundingClientRect()['top'];
         post_pos = document.getElementById('post').getBoundingClientRect()['top'];
         contato_pos = document.getElementById('contato').getBoundingClientRect()['top'];
-    if (home_pos <= 50 && sobre_pos > 50 ) {
+    if (home_pos <= 100 && sobre_pos > 50 ) {
         document.getElementById("home_menu").classList.add('active');
         document.getElementById("sobre_menu").classList.remove('active');
         document.getElementById("post_menu").classList.remove('active');
